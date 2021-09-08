@@ -24,6 +24,10 @@ body{
     float: left;
     margin-right: 30px;
 }
+.mountain{
+    max-width: 100%;
+    height: auto;
+}
 
 h1{
     margin-top: 0;
@@ -57,9 +61,14 @@ hr{
 .top-cloud{
     position: absolute;
     right: 650px;
+    max-width: 100%;
+    height: auto;
+    
 }
 .bottom-cloud{
     position: absolute;
+    max-width: 100%;
+    height: auto;
 }
 .middle-container{
     background-color: #FFE194;
