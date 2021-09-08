@@ -3,23 +3,51 @@ body{
     text-align: center;
     font-family: 'Oxygen', sans-serif;
 }
+.subtitle{
+    font-size: 1.5rem;
+}
+.pro{
+    text-decoration-line: underline;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;    
+}
+.code{
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+.game{
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
 
 h1{
     margin-top: 0;
     font-family: 'Merienda', cursive;
-    font-size: 3em;
+    font-size: 3rem;
     color: #E8F6EF;
 }
 h2{
-    font-family: 'Staatliches', cursive;
+    font-family: 'Unica One', cursive;
     color: #FF0000;
-    font-size: 2em;
+    font-size: 2rem;
 }
 h3{
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 900;
     color: #911F27;
+}
+hr{
+    border: 10px;
+    padding-bottom: 30px;
+    width: 10%;
+    border-style: none none dotted;
+    border-color: grey;
 }
 .top-container{
     background-color: #FFB319;
@@ -39,6 +67,44 @@ h3{
            
 }
 .bottom-container{
-    background-color: #FFE194;
+    background-color: #ffcc4d;
+    padding-bottom: 5rem;
+    padding-top: 7rem;
     
 }
+.footer-link{
+    color: #b38000;
+    padding: 0 20px 0 20px;
+}
+.contact-me{
+    padding: 7rem 0 7rem 0;
+}
+.BUTTON_DCT {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: 100;
+    padding: 20px;
+    background-color: #F6713D;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #FFFFFF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_DCT:hover {
+    background: #D01E82;
+    border: solid #FFFFFF 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
